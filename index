@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keylogger Control Panel</title>
+    <script src="/eel.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Keylogger Dashboard</h1>
+        <div class="buttons">
+            <button onclick="startLogging()">▶ Start Logging</button>
+            <button onclick="stopLogging()">⏹ Stop Logging</button>
+        </div>
+        <p id="status">Status: Idle</p>
+        <footer>Made by <strong>Tanmay Chahankar</strong></footer>
+    </div>
+</body>
+</html>
