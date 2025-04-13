@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Keylogger</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/eel.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📋 Logs Viewer</h1>
+        <div class="buttons">
+            <button onclick="startLogging()">Start</button>
+            <button onclick="stopLogging()">Stop</button>
+            <button onclick="fetchLogs()">Refresh Logs</button>
+        </div>
+        <div id="log-container">
+            <h2>Logged Keystrokes</h2>
+            <ul id="log-list"></ul>
+        </div>
+        <footer>Made by <strong>Tanmay Chahankar</strong></footer>
+    </div>
+</body>
+</html>
